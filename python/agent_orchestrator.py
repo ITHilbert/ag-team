@@ -176,20 +176,20 @@ def main():
     print("Initialisiere Sub-Agenten...")
     
     # Init Agents
-    # Protokoll has contact_moderator
-    protokoll = MistralAgent("Protokollagent", "03_protokollagent", "03_protokollagent.md", tools=[contact_moderator])
+    # Product Manager has contact_moderator
+    prod_man = MistralAgent("Produktmanager", "02_Produktmanager", "02_Produktmanager.md", tools=[contact_moderator])
     
     # Architekt has init_worker AND contact_moderator
     architekt = MistralAgent("Systemarchitekt", "03_Systemarchitekt", "03_Systemarchitekt.md", tools=[init_worker, contact_moderator])
     
-    AGENTS["1"] = protokoll
+    AGENTS["1"] = prod_man
     AGENTS["2"] = architekt
 
     print("\nAlle Agenten bereit.")
     
     # AUTOMATIC AIDER LAUNCH
     print("\n[System] Starte Coding-Interfaces (Aider) für Agenten...")
-    launch_aider("Protokollagent")
+    launch_aider("Produktmanager")
     launch_aider("Systemarchitekt")
     
 

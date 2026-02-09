@@ -6,7 +6,7 @@
   - 00_agenten.md (Globale Regeln)
   - 01_administrator.md
   - 02_moderator.md
-  - 03_protokollagent.md
+  - 02_Produktmanager.md
   - 03_Systemarchitekt.md
   - 04_Frontend-Engineer.md
   - 05_worker.md (Generic)

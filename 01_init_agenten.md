@@ -23,13 +23,13 @@ Deine Rolle ist: Moderator.
 
 ---
 
-Protokollagent:
+Produktmanager:
 
-Deine Rolle ist: Protokollagent.
+Deine Rolle ist: Produktmanager.
 
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
-2) Lies dir die Datei ag-team/agenten/03_protokollagent.md durch und halte dich an die Regeln.
-3) Bestätige kurz: Ziele, Verbote, Output-Format, erlaubte Ziel-Dateien.
+2) Lies dir die Datei ag-team/agenten/02_Produktmanager.md durch und halte dich an die Regeln.
+3) Bestätige kurz: Ziele, Verbote, Output-Format.
 
 5) Arbeite ausschließlich nach diesen Vorgaben.
 6) Bei Unklarheit oder Konflikt: keine Annahmen – an den Moderator melden.
