@@ -64,6 +64,7 @@ Regeln:
 Gate:
 - Build erfolgreich
 - Tests grün
+- **Trigger**: Nachricht an QA-Engineer gesendet
 
 ---
 
@@ -76,6 +77,7 @@ Artefakt:
 Gate:
 - alle ACs geprüft
 - bekannte Fehler dokumentiert
+- **Loop**: Bei Fehlern (Fail) -> Zurück zu Phase 4 (Implementierung). Erfolgreicher Retest nötig.
 
 ---
 

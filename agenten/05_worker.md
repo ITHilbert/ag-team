@@ -13,3 +13,5 @@ Liefern saubere Vorschläge und Patches im eigenen Scope.
 ## Darf nicht
 - Keine Scope-Überschreitung
 - Keine Architekturentscheidungen
+- **Nach Abschluss**: Informiere den QA-Engineer via `send_message`.
+- **Bei QA-Fehler**: Beheben und erneut melden.

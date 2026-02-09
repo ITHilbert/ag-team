@@ -55,6 +55,32 @@ def contact_moderator(message, priority="NORMAL"):
     print(f"{'='*40}\n")
     return "Nachricht an Moderator gesendet. Warte auf Antwort im Chat."
 
+    return "Nachricht an Moderator gesendet. Warte auf Antwort im Chat."
+
+# Tool definition for Agent-to-Agent Communication
+def send_message(recipient_name, message):
+    """
+    Sends a message to another agent.
+    recipient_name: Name of the target agent (e.g. "Systemarchitekt", "Frontend-Engineer")
+    message: The content of the message
+    """
+    target_agent = None
+    for key, agent in AGENTS.items():
+        if agent.name.lower() == recipient_name.lower():
+            target_agent = agent
+            break
+            
+    if target_agent:
+        # We inject the message into the target agent's history as a user message
+        # stating who sent it.
+        sender_info = "[NACHRICHT VON EINEM ANDEREN AGENTEN]"
+        full_msg = f"{sender_info}\n\n{message}"
+        target_agent.messages.append({'role': 'user', 'content': full_msg})
+        print(f"\n[INTERN] Nachricht an {target_agent.name} zugestellt.")
+        return f"Nachricht an {target_agent.name} erfolgreich gesendet."
+    else:
+        return f"Fehler: Agent '{recipient_name}' nicht gefunden."
+
 # Tool definition for Worker Initialization
 def init_worker(name, role_file="05_worker.md"):
     """
@@ -74,7 +100,7 @@ def init_worker(name, role_file="05_worker.md"):
     
     # Init Agent with default tools (contact_moderator)
     # New workers don't get init_worker tool, only Architect does.
-    new_agent = MistralAgent(name, worker_id, role_file, tools=[contact_moderator])
+    new_agent = MistralAgent(name, worker_id, role_file, tools=[contact_moderator, send_message])
     
     # Register in Global Dict
     # Find next free key (numeric)
@@ -117,6 +143,7 @@ class MistralAgent:
                 f"\n=== TOOLS ===\n"
                 f"Du hast Zugriff auf Tools. Nutze sie, wenn nötig.\n"
                 f"- `contact_moderator`: Um den Moderator zu rufen (Fragen, Probleme, Fertigmeldung).\n"
+                f"- `send_message`: Um Nachrichten an andere Agenten zu senden (z.B. Produktmanager an Architekt).\n"
             )
             # Add specific hint for Architect
             if "init_worker" in [t.__name__ for t in self.tools]:
@@ -156,6 +183,8 @@ class MistralAgent:
                         result = init_worker(args.get('name'), args.get('role_file', '05_worker.md'))
                     elif function_name == 'contact_moderator':
                         result = contact_moderator(args.get('message'), args.get('priority', 'NORMAL'))
+                    elif function_name == 'send_message':
+                        result = send_message(args.get('recipient_name'), args.get('message'))
                     
                     print(f"Tool Result: {result}")
                         
@@ -177,10 +206,10 @@ def main():
     
     # Init Agents
     # Product Manager has contact_moderator
-    prod_man = MistralAgent("Produktmanager", "02_Produktmanager", "02_Produktmanager.md", tools=[contact_moderator])
+    prod_man = MistralAgent("Produktmanager", "02_Produktmanager", "02_Produktmanager.md", tools=[contact_moderator, send_message])
     
-    # Architekt has init_worker AND contact_moderator
-    architekt = MistralAgent("Systemarchitekt", "03_Systemarchitekt", "03_Systemarchitekt.md", tools=[init_worker, contact_moderator])
+    # Architekt has init_worker AND contact_moderator AND send_message
+    architekt = MistralAgent("Systemarchitekt", "03_Systemarchitekt", "03_Systemarchitekt.md", tools=[init_worker, contact_moderator, send_message])
     
     AGENTS["1"] = prod_man
     AGENTS["2"] = architekt

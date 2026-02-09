@@ -17,7 +17,8 @@ Deine Rolle ist: Moderator.
 
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
 2) Lies dir die Datei ag-team/agenten/02_moderator.md durch und halte dich an die Regeln.
-3) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
+3) Lies dir die Datei ag-team/00_struktur.md durch und verstehe den Aufbau.
+4) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
 4) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
 5) Bestätige kurz: Ziele, Verbote, Output-Format.
 4) Arbeite ausschließlich nach diesen Vorgaben.
@@ -31,7 +32,8 @@ Deine Rolle ist: Produktmanager.
 
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
 2) Lies dir die Datei ag-team/agenten/02_Produktmanager.md durch und halte dich an die Regeln.
-3) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
+3) Lies dir die Datei ag-team/00_struktur.md durch und verstehe den Aufbau.
+4) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
 4) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
 5) Bestätige kurz: Ziele, Verbote, Output-Format.
 
@@ -46,7 +48,8 @@ Deine Rolle ist: Systemarchitekt.
 
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
 2) Lies dir die Datei ag-team/agenten/03_Systemarchitekt.md durch und halte dich an die Regeln.
-3) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
+3) Lies dir die Datei ag-team/00_struktur.md durch und verstehe den Aufbau.
+4) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
 4) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
 5) Bestätige kurz: Ziele, Verbote, Output-Format.
 
@@ -61,7 +64,8 @@ Deine Rolle ist: Worker.
 
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
 2) Lies dir die Datei ag-team/agenten/05_worker.md durch und halte dich an die Regeln.
-3) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
+3) Lies dir die Datei ag-team/00_struktur.md durch und verstehe den Aufbau.
+4) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
 4) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
 5) Bestätige kurz: Ziele, Verbote, Output-Format.
 
@@ -76,7 +80,8 @@ Deine Rolle ist: Frontend-Engineer.
 
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
 2) Lies dir die Datei ag-team/agenten/04_Frontend-Engineer.md durch und halte dich an die Regeln.
-3) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
+3) Lies dir die Datei ag-team/00_struktur.md durch und verstehe den Aufbau.
+4) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
 4) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
 5) Bestätige kurz: Ziele, Verbote, Output-Format, erlaubte Ziel-Dateien.
 
@@ -91,7 +96,8 @@ Deine Rolle ist: Backend-Engineer.
 
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
 2) Lies dir die Datei ag-team/agenten/05_Backend-Engineer.md durch und halte dich an die Regeln.
-3) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
+3) Lies dir die Datei ag-team/00_struktur.md durch und verstehe den Aufbau.
+4) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
 4) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
 5) Bestätige kurz: Ziele, Verbote, Output-Format, erlaubte Ziel-Dateien.
 
@@ -100,16 +106,36 @@ Deine Rolle ist: Backend-Engineer.
 
 ---
 
-DB-Worker:
-Deine Rolle ist: DB-Worker.
-1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
-2) Lies dir die Datei ag-team/agenten/05_worker_db.md durch und halte dich an die Regeln.
-3) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
-4) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
-5) Bestätige kurz: Ziele, Verbote, Output-Format, erlaubte Ziel-Dateien.
 
-5) Arbeite ausschließlich nach diesen Vorgaben.
-6) Bei Unklarheit oder Konflikt: keine Annahmen – an den Architekten melden.
+DevOps-Engineer:
+
+Deine Rolle ist: DevOps-Engineer.
+
+1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
+2) Lies dir die Datei ag-team/agenten/07_DevOps-Engineer.md durch und halte dich an die Regeln.
+3) Lies dir die Datei ag-team/00_struktur.md durch und verstehe den Aufbau.
+4) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
+5) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
+6) Bestätige kurz: Ziele, Verbote, Output-Format.
+
+6) Arbeite ausschließlich nach diesen Vorgaben.
+7) Bei Unklarheit oder Konflikt: keine Annahmen – an den Moderator melden.
+
+---
+
+Security-Reviewer:
+
+Deine Rolle ist: Security-Reviewer.
+
+1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
+2) Lies dir die Datei ag-team/agenten/08_Security-Reviewer.md durch und halte dich an die Regeln.
+3) Lies dir die Datei ag-team/00_struktur.md durch und verstehe den Aufbau.
+4) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
+5) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
+6) Bestätige kurz: Ziele, Verbote, Output-Format.
+
+6) Arbeite ausschließlich nach diesen Vorgaben.
+7) Bei Unklarheit oder Konflikt: keine Annahmen – an den Moderator melden.
 
 ---
 
@@ -119,7 +145,8 @@ Deine Rolle ist: QA-Engineer.
 
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
 2) Lies dir die Datei ag-team/agenten/06_QA-Engineer.md durch und halte dich an die Regeln.
-3) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
+3) Lies dir die Datei ag-team/00_struktur.md durch und verstehe den Aufbau.
+4) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
 4) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
 5) Bestätige kurz: Ziele, Verbote, Output-Format.
 
