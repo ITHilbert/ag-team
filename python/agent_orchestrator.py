@@ -59,7 +59,7 @@ def contact_moderator(message, priority="NORMAL"):
 def init_worker(name, role_file="05_worker.md"):
     """
     Initializes a new worker agent with the given name and role file.
-    Example: init_worker("UI-Worker", "05_worker_ui.md")
+    Example: init_worker("Frontend-Engineer", "04_Frontend-Engineer.md")
     """
     global AGENTS
     print(f"\n[SYSTEM] Initialisiere neuen Worker: {name} ({role_file})...")
@@ -180,7 +180,7 @@ def main():
     protokoll = MistralAgent("Protokollagent", "03_protokollagent", "03_protokollagent.md", tools=[contact_moderator])
     
     # Architekt has init_worker AND contact_moderator
-    architekt = MistralAgent("Architekt", "04_architekt", "04_architekt.md", tools=[init_worker, contact_moderator])
+    architekt = MistralAgent("Systemarchitekt", "03_Systemarchitekt", "03_Systemarchitekt.md", tools=[init_worker, contact_moderator])
     
     AGENTS["1"] = protokoll
     AGENTS["2"] = architekt
@@ -190,7 +190,7 @@ def main():
     # AUTOMATIC AIDER LAUNCH
     print("\n[System] Starte Coding-Interfaces (Aider) für Agenten...")
     launch_aider("Protokollagent")
-    launch_aider("Architekt")
+    launch_aider("Systemarchitekt")
     
 
     

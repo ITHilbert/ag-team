@@ -7,12 +7,12 @@
   - 01_administrator.md
   - 02_moderator.md
   - 03_protokollagent.md
-  - 04_architekt.md
+  - 03_Systemarchitekt.md
+  - 04_Frontend-Engineer.md
   - 05_worker.md (Generic)
-  - 05_worker_ui.md
-  - 05_worker_backend.md
+  - 05_Backend-Engineer.md
   - 05_worker_db.md
-  - 05_worker_qa.md
+  - 06_QA-Engineer.md
   
 ## Tools & Scripts
 - start_aider.bat (Nutzt D:\Aider)

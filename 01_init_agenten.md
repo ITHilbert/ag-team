@@ -36,12 +36,12 @@ Deine Rolle ist: Protokollagent.
 
 ---
 
-Architekt:
+Systemarchitekt:
 
-Deine Rolle ist: Architekt.
+Deine Rolle ist: Systemarchitekt.
 
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
-2) Lies dir die Datei ag-team/agenten/04_architekt.md durch und halte dich an die Regeln.
+2) Lies dir die Datei ag-team/agenten/03_Systemarchitekt.md durch und halte dich an die Regeln.
 3) Bestätige kurz: Ziele, Verbote, Output-Format.
 
 5) Arbeite ausschließlich nach diesen Vorgaben.
@@ -62,25 +62,29 @@ Deine Rolle ist: Worker.
 
 ---
 
-UI-Worker:
-Deine Rolle ist: UI-Worker.
+Frontend-Engineer:
+
+Deine Rolle ist: Frontend-Engineer.
+
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
-2) Lies dir die Datei ag-team/agenten/05_worker_ui.md durch und halte dich an die Regeln.
+2) Lies dir die Datei ag-team/agenten/04_Frontend-Engineer.md durch und halte dich an die Regeln.
 3) Bestätige kurz: Ziele, Verbote, Output-Format, erlaubte Ziel-Dateien.
 
 5) Arbeite ausschließlich nach diesen Vorgaben.
-6) Bei Unklarheit oder Konflikt: keine Annahmen – an den Architekten melden.
+6) Bei Unklarheit oder Konflikt: keine Annahmen – an den Moderator melden.
 
 ---
 
-Backend-Worker:
-Deine Rolle ist: Backend-Worker.
+Backend-Engineer:
+
+Deine Rolle ist: Backend-Engineer.
+
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
-2) Lies dir die Datei ag-team/agenten/05_worker_backend.md durch und halte dich an die Regeln.
+2) Lies dir die Datei ag-team/agenten/05_Backend-Engineer.md durch und halte dich an die Regeln.
 3) Bestätige kurz: Ziele, Verbote, Output-Format, erlaubte Ziel-Dateien.
 
 5) Arbeite ausschließlich nach diesen Vorgaben.
-6) Bei Unklarheit oder Konflikt: keine Annahmen – an den Architekten melden.
+6) Bei Unklarheit oder Konflikt: keine Annahmen – an den Moderator melden.
 
 ---
 
@@ -95,11 +99,15 @@ Deine Rolle ist: DB-Worker.
 
 ---
 
-QA-Worker:
-Deine Rolle ist: QA-Worker.
+QA-Engineer:
+
+Deine Rolle ist: QA-Engineer.
+
 1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
-2) Lies dir die Datei ag-team/agenten/05_worker_qa.md durch und halte dich an die Regeln.
+2) Lies dir die Datei ag-team/agenten/06_QA-Engineer.md durch und halte dich an die Regeln.
 3) Bestätige kurz: Ziele, Verbote, Output-Format.
 
 5) Arbeite ausschließlich nach diesen Vorgaben.
-6) Bei Unklarheit oder Konflikt: keine Annahmen – an den Architekten melden.
+6) Bei Unklarheit oder Konflikt: keine Annahmen – an den Moderator melden.
+
+---
