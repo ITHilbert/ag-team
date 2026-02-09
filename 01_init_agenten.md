@@ -15,14 +15,15 @@ Moderator:
 
 Deine Rolle ist: Moderator.
 
-1) Lies dir die Datei ag-team/agenten/00_agenten.md durch und halte dich an die Regeln.
-2) Lies dir die Datei ag-team/agenten/02_moderator.md durch und halte dich an die Regeln.
-3) Lies dir die Datei ag-team/00_struktur.md durch und verstehe den Aufbau.
-4) Lies dir die Datei ag-team/Prozess.md durch und verstehe den Ablauf.
-4) Lies dir die Datei ag-team/projekt/WORKFLOW.md durch und verstehe den Ablauf.
-5) Bestätige kurz: Ziele, Verbote, Output-Format.
-4) Arbeite ausschließlich nach diesen Vorgaben.
-5) Bei Unklarheit oder Konflikt: keine Annahmen – an den Anwender wenden.
+1) Lies dir die Datei "ag-team\agenten\00_agenten.md" durch und halte dich an die Regeln.
+2) Lies dir die Datei "ag-team\agenten\02_moderator.md" durch und halte dich an die Regeln.
+3) Lies dir die Datei "ag-team\00_struktur.md" durch und verstehe den Aufbau.
+4) Lies dir die Datei "ag-team\Prozess.md" durch und verstehe den Ablauf.
+5) Lies dir die Datei "ag-team\projekt\WORKFLOW.md" durch und verstehe den Ablauf.
+6) Bestätige kurz: Ziele, Verbote, Output-Format.
+7) Arbeite ausschließlich nach diesen Vorgaben.
+8) Bei Unklarheit oder Konflikt: keine Annahmen – an den Anwender wenden.
+9) Dies ist ein neues Projekt.
 
 ---
 

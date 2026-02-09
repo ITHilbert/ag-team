@@ -8,6 +8,6 @@ REM Set environment variables if needed
 set OLLAMA_API_BASE=http://localhost:11434
 
 REM Run Aider from the virtual environment
-D:\Aider\.venv\Scripts\aider --model ollama/mistral --no-auto-commits --no-git --no-show-model-warnings
+D:\Aider\.venv\Scripts\aider --model ollama/llama3.1 --edit-format whole --no-auto-commits --no-git --no-show-model-warnings
 
 pause

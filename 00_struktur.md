@@ -14,8 +14,8 @@
   - 06_QA-Engineer.md
   
 ## Tools & Scripts
-- start_aider.bat (Nutzt D:\Aider)
-- start_orchestrator.bat (Nutzt D:\Aider)
+- start_aider.bat
+- start_orchestrator.bat
 - python/
   - agent_orchestrator.py
 

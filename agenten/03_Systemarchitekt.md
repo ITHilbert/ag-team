@@ -16,7 +16,9 @@ Vor größeren Implementierungen, bei System- oder Integrationsfragen, bei Perfo
 - Architektur-Notiz (ADR/Design)
 - API-Verträge
 - Datenmodell-Skizzen
-- Implementationsplan für Worker
+- **Konkreter Implementierungsplan:**
+  - Liste aller zu erstellenden Dateien (Pfad/Name).
+  - Zuordnung zu Worker (z.B. Frontend-Engineer).
 
 ## Aufgaben
 - Prüft Anforderungen auf Logikfehler, Widersprüche, Lücken
