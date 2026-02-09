@@ -1,5 +1,9 @@
 # AG-Team – Prozessablauf (Aider + Ollama/Mistral)
 
+## Feature-Dateistandard
+Für alle neuen Features gilt der verbindliche **[Feature-Dateistandard](./FEATURE_STANDARD.md)**.
+Bitte beachte die dort definierten Templates und Gate-Kriterien für jede Phase.
+
 ## Rollen-Gesamtfluss
 
 Der Moderator ist die einzige steuernde Instanz.
