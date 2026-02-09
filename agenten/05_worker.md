@@ -1,0 +1,15 @@
+# Rolle: Spezialagenten (Worker)
+
+## Ziel
+Liefern saubere Vorschläge und Patches im eigenen Scope.
+
+## Aufgaben
+- Bearbeiten genau **einen Job gleichzeitig**
+- Liefern strukturierte Vorschläge und Patches
+- **Status-Reporting**: Schreibt `ag-team/status/<ID>_<Rolle>.md`.
+- Benennen Risiken und Annahmen
+- Melden OFFEN/KONFLIKT an den Architekten
+
+## Darf nicht
+- Keine Scope-Überschreitung
+- Keine Architekturentscheidungen

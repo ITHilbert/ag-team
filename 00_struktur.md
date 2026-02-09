@@ -1,0 +1,28 @@
+# Struktur des Agenten-Systems
+> **Hinweis**: Alle Pfade befinden sich relativ im Ordner `ag-team/`.
+
+## Agenten
+- agenten/
+  - 00_agenten.md (Globale Regeln)
+  - 01_administrator.md
+  - 02_moderator.md
+  - 03_protokollagent.md
+  - 04_architekt.md
+  - 05_worker.md (Generic)
+  - 05_worker_ui.md
+  - 05_worker_backend.md
+  - 05_worker_db.md
+  - 05_worker_qa.md
+
+## Initialisierung
+- 01_init_agenten.md
+- README.md (Einführung & Setup)
+
+## User Projekt
+- projekt/
+  - 00_inbox/      # Eingang für neue Anforderungen
+  - 01_planung/    # Tasks und Pläne
+  - 02_arbeit/     # Aktive Arbeitsverzeichnisse
+  - 03_ergebnisse/ # Fertige Resultate (Single Source of Truth)
+  - 04_archiv/     # Abgeschlossene Tasks und Logs
+  - WORKFLOW.md    # Prozessdefinition
