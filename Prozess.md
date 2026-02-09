@@ -11,18 +11,19 @@ Alle anderen Rollen arbeiten ausschließlich auf klaren Arbeitsaufträgen des Mo
 
 ---
 
-## 1. Intake / Klärung
-Rolle: Moderator
+## 1. Diskussion & Idee (Intake)
+Rolle: Moderator -> Produktmanager
 
-Artefakt:
-- features/<feature>/01_intake.md
+Input:
+- Diskussion im Chat
+- Trigger: "Gib das als Idee weiter"
+
+Output:
+- Weitergeleitete Idee an Produktmanager
+- (Kein Artefakt auf Moderatoren-Ebene)
 
 Gate:
-- Ziel klar
-- Nicht-Ziele dokumentiert
-- offene Fragen markiert
-
----
+- Explizite User-Anweisung zur Weitergabe
 
 ## 2. Anforderungsdefinition
 Rolle: Produktmanager

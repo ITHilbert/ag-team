@@ -82,7 +82,7 @@ Rollenbeschreibungen dürfen diese Regeln **nicht überschreiben**, sondern nur 
 ## Rollenübersicht & Hierarchie
 1. **Administrator** - darf alles anpassen, was nicht explizit verboten ist
 2. **Moderator (Antigravity)** – Lead, Moderation, Orchestrierung der Sub-Agenten
-3. **Protokollagent (Mistral)** – Sub-Agent für Anforderungen (läuft lokal via Python)
+3. **Produktmanager (Mistral)** – Sub-Agent für Anforderungen & Entscheidungen (Sole Truth)
 4. **Architekt (Mistral)** – Sub-Agent für Architektur & Planung (läuft lokal via Python)
 5. **Spezialagenten (Worker-Pools)** – Umsetzungsvorschläge im Scope
 86: 

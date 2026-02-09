@@ -59,7 +59,7 @@ def contact_moderator(message, priority="NORMAL"):
 def init_worker(name, role_file="05_worker.md"):
     """
     Initializes a new worker agent with the given name and role file.
-    Example: init_worker("Frontend-Engineer", "04_Frontend-Engineer.md")
+    Example: init_worker("Frontend-Engineer", "04_Frontend-Engineer.md"), "04_Frontend-Engineer.md")
     """
     global AGENTS
     print(f"\n[SYSTEM] Initialisiere neuen Worker: {name} ({role_file})...")

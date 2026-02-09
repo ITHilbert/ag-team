@@ -6,13 +6,13 @@
   - 00_agenten.md (Globale Regeln)
   - 01_administrator.md
   - 02_moderator.md
-  - 02_Produktmanager.md
-  - 03_Systemarchitekt.md
+  - 03_protokollagent.md
+  - 04_architekt.md
   - 04_Frontend-Engineer.md
   - 05_worker.md (Generic)
-  - 05_Backend-Engineer.md
+  - 05_worker_backend.md
   - 05_worker_db.md
-  - 06_QA-Engineer.md
+  - 05_worker_qa.md
   
 ## Tools & Scripts
 - start_aider.bat (Nutzt D:\Aider)

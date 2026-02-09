@@ -2,16 +2,12 @@
 
 ## Übersicht
 
-1.  **INBOX** (`projekt/00_inbox`)
-    - Eingang für neue Anforderungen (`REQ-*.md`).
-    - Status: `NEU`
-
-2.  **PLANUNG** (`projekt/01_planung`)
+1.  **PLANUNG** (`projekt/01_planung`)
     - Analyse, Architektur und Tasking.
     - Artefakte: `PLAN-*.md`, `TASK-*.md`.
     - Status: `GEPLANT`
 
-3.  **ARBEIT** (`projekt/02_arbeit`)
+2.  **ARBEIT** (`projekt/02_arbeit`)
     - Aktive Bearbeitung durch Worker.
     - Temporäre Dateien und Zwischenschritte.
     - Status: `IN ARBEIT`
@@ -25,9 +21,22 @@
 
 ## Prozess
 
-1.  **Anwender** legt `REQ-Titel.md` in `00_inbox` ab (nutze Template).
-2.  **Moderator** prüft Inbox und weist Task an Architekt/Protokollagent.
-3.  **Architekt** erstellt Plan in `01_planung`.
-4.  **Worker** führt Task aus in `02_arbeit`.
-5.  **Review** (durch Architekt/Anwender) verschiebt Ergebnis nach `03_ergebnisse`.
-6.  **Aufräumen**: Quelldateien nach `04_archiv`.
+1.  **Diskussion & Idee**:
+    - Anwender diskutiert mit Moderator.
+    - Anwender gibt explizite Anweisung: "Gib das als Idee weiter".
+    - Moderator leitet Idee an **Produktmanager** weiter.
+
+2.  **Entscheidung & Planung (Produktmanager)**:
+    - Produktmanager prüft Idee (Machbarkeit, Sinn).
+    - Produktmanager erstellt/aktualisiert Specs in `01_planung` (Features).
+    - Produktmanager beauftragt Systemarchitekt.
+
+3.  **Architektur & Tasking (Systemarchitekt)**:
+    - Architekt erstellt technischen Plan.
+    - Architekt initiiert Worker.
+
+4.  **Umsetzung (Worker)**:
+    - Worker setzen Tasks in `02_arbeit` um.
+
+5.  **Abnahme**:
+    - Ergebnisse werden geprüft und landen in `03_ergebnisse`.
