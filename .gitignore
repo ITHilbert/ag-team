@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+status/
+projekt/00_inbox/
+projekt/01_planung/
+projekt/02_arbeit/
+projekt/03_ergebnisse/
+projekt/04_archiv/
